@@ -7,6 +7,8 @@ import { BrowserRouter } from 'react-router-dom'
 
 import 'remixicon/fonts/remixicon.css'
 
+import 'aos/dist/aos.css';
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>

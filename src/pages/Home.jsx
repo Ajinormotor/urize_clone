@@ -1,6 +1,8 @@
 import Ad from "../components/Ad"
 import Create from "../components/Create"
 import Hero from "../components/Hero"
+import Objective from "../components/Objective"
+import Whatwedo from "../components/Whatwedo"
 
 
 const Home = () => {
@@ -8,6 +10,8 @@ const Home = () => {
     <div>
         <Hero />
         <Create />
+        <Whatwedo />
+        <Objective />
         <Ad />
       
     </div>

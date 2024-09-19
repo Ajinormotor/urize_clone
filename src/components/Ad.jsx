@@ -4,7 +4,7 @@ const Ad = () => {
   return (
 <section className="flex flex-col items-center justify-center bg-black py-[3rem] h-full -full">
 
-    <div className="max-w-[760px] w-full text-center justify-center items-center  flex flex-col gap-[10px]">
+    <div className="max-w-[760px] w-full text-center justify-center items-center  flex flex-col gap-[20px]">
 
 
   
