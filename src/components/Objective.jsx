@@ -7,7 +7,14 @@ const Objective = () => {
 
 
 {/* Mission */}
-<div className="flex md:flex-row flex-col items-center justify-center gap-[25px] p-[20px]">
+<div 
+
+data-aos="fade-right" 
+data-aos-easing="ease-in-sine"
+ data-aos-delay="200"
+
+
+className="flex md:flex-row flex-col items-center justify-center gap-[25px] p-[20px]"   >
 
     <div className="flex max-w-[483px] w-full h-full max-h-[524px]">
 <img src={why}  alt="mission_pics"  className="w-full h-full"  />
@@ -25,7 +32,13 @@ const Objective = () => {
 
 {/* Vission */}
 
-<div className="flex md:flex-row flex-col items-center justify-center gap-[35px] p-[20px]">
+<div   className="flex md:flex-row flex-col items-center justify-center gap-[35px] p-[20px]" 
+
+data-aos="fade-left" 
+data-aos-easing="ease-in-sine"
+ data-aos-delay="200"
+
+>
 
 
 <div className="flex flex-col max-w-[482px] w-full gap-[30px] text-center md:text-start">

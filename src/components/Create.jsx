@@ -6,9 +6,12 @@ import personTwo from "../../public/person2.svg"
 
 const Create = () => {
   return (
-  <section className="w-full bg-[#40048F] h-full py-[2rem]">
+  <section className="w-full bg-[#40048F] h-full py-[2rem]"  >
 
-    <div className="flex flex-col md:flex-row items-center justify-around">
+    <div className="flex flex-col md:flex-row items-center justify-around"  data-aos="fade-right" 
+data-aos-easing="ease-in-sine"
+ data-aos-delay="200"
+>
 
 <div className="flex flex-col-reverse items-center md:gap-[20px]  md:flex-row">
 

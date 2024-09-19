@@ -35,7 +35,13 @@ const Whatwedo = () => {
 
 
 {/* first div */}
-    <div className="flex md:flex-row flex-col  justify-center gap-[25px] p-[20px]">
+    <div 
+data-aos="zoom out" 
+data-aos-easing="ease-in-sine"
+ data-aos-delay="200"
+
+    
+    className="flex md:flex-row flex-col  justify-center gap-[25px] p-[20px]">
 
     <div className="flex max-w-[439px] w-full h-[474px] object-cover">
 <img src={phootgrapher}  alt="mission_pics"  className="w-full h-full object-cover rounded-sm"  />
@@ -85,7 +91,11 @@ const Whatwedo = () => {
 
 {/* second div */}
 
-<div className="flex md:flex-row flex-col  justify-center gap-[25px] p-[20px]">
+<div 
+data-aos="zoom-in" 
+data-aos-easing="ease-in-sine"
+ data-aos-delay="200"
+className="flex md:flex-row flex-col  justify-center gap-[25px] p-[20px]">
 
 
 
@@ -114,7 +124,7 @@ const Whatwedo = () => {
 
         
         <ul className="flex items-center  gap-[30px]">
-        <li  className="w-[60px] h-[60px] flex items-center justify-center bg-[#ece6f4]">  <img src={upload}  alt="icon" className="w-[30px] h-[30px]" /></li>
+        <li  className="w-[60px] h-[60px] flex items-center justify-center bg-[#ece6f4]">  <img src={handshake}  alt="icon" className="w-[30px] h-[30px]" /></li>
         <li className="text-[16px] text-[#333333]"> 
         Negotiatie & Sign Contract</li>
         </ul>
